@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background-color: rgb(243, 243, 243);
+}
+.navspace{
+    background-color: rgb(228, 227, 227);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: fixed;
+    width: 100%;
+}
+.title{
+    flex: -5%;
+    margin-left: 10%;
+}
+.title a{
+    text-decoration: none;
+    color: #ff9648;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 34px;
+}
+.title h1{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.menu{
+    flex:40%;
+    margin-right: 10%;
+    text-align: right;
+    padding: 20px 20px;
+}
+.menu a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ff9648;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: #e06931;
+}
+#botton{
+    margin-left: 5%;
+    background-color: #ff9648;
+    color: #1d1d1b;
+    padding: 14px 36px;
+}
+#botton:hover{
+    background-color: #e06931;
+    color: #1d1d1b;
+}
+
+/*MEIO*/
+
+.header-mid{
+    background-color: rgb(243, 243, 243);
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.chamada{
+    margin-left: 10%;
+    flex: 40%;
+    margin-top: 60px;
+}
+.chamada p{
+    font-size: 20px;
+    font-family: "PT Sans Narrow";
+    text-align: justify;
+}
+.chamada h2{
+    font-weight: 900px;
+    font-size: 50px;
+    font-family: "PT Sans Narrow";
+    text-align: justify;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.img{
+    margin-right: 10%;
+    flex: 40%;
+    margin-top: 60px;
+}
+.img img{
+    max-width: 100%;
+    margin: 12%;
+}
+
+/*Segunda sessão do meio*/
+
+section{
+    height: auto;
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    width: 80%;
+}
+section h2{
+    max-width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    font-family: "PT Sans Narrow";
+}
+.spacecard{
+    display: inline block;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 300px;
+    height: 400px;
+    margin: 1%;
+    border: 3px solid #ff9648;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: justify;
+    background-position: bottom;
+    overflow: hidden;
+}
+.contentcard{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.contentcard h2{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.imgcard img{
+    background-size: cover;
+    margin: 0px auto;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.card:hover > .contentcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.card:hover > .contentcard h2{
+    margin: 0;
+    padding: 0;
+}
+.card:hover > .contentcard p{
+    margin: 0;
+    padding: 0;
+}
+.card:hover .imgcard{
+    display: none;
+
+}
+.card:hover{
+    display: inline-block;
+    background-color: #e06931;
+    text-align: justify;
+}
+.card:hover > h2{
+    margin: 0;
+}
+
+/*Footer*/
+
+.spacefooter{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10%;
+    align-items: center;
+    justify-items: center;
+    text-align:center;
+    background-color:rgb(228, 227, 227);
+    margin-bottom: 0px;
+    height: 200px;
+}
+.spacefooter h2{
+    text-decoration: none;
+    color: #ff9648;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.spacefooter h4{
+    margin-bottom: 0px;
+    margin-top: 70px; 
+}
+.navfooter{
+    margin-top:10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.navfooter a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ff9648;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 17.5px;
+    font-weight: bold;
+}
